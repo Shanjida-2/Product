@@ -1,0 +1,207 @@
+body{
+    background: fixed;
+    background-color: bisque;
+    margin: auto;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+.navigation{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.navigation li{
+    float: left;
+    list-style: none;
+    margin: 1px 20px;
+    
+    text-decoration: none;
+}
+.navigation li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.tab{
+    color: white;
+    font-size: 20px;
+}
+.small{
+
+}
+
+.player{
+    grid-row-gap: 30px;
+    grid-column-gap: 60px;
+    margin-left: 20px;
+}
+.container{
+ height: auto;
+    width: auto;
+    background-color: white;
+    font-size: medium;
+    padding: 20px;
+    margin-top: 20px;
+}
+.blue{
+    color: blueviolet;
+    font-style: normal;
+    margin-left: 10px;
+}
+.ss{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 60px;
+    }
+    .nature{
+        display: flex;
+        
+        width: 30%;
+    }
+    .nature p{
+        margin-left: 40px;
+    }
+    .con{
+        background-color: white;
+        
+    }
+    .red{
+        color: blueviolet;
+        margin-top: 0;
+        margin-left: 20px;
+        }
+        .hh{
+            margin-top: 30px;
+        }   
+        .blog{
+            display: grid;
+            background-color: whitesmoke;
+            border-radius: 4px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 5px;
+            margin-left: 10px;
+        
+        }   
+
+        .blogs h3{
+            margin-left: 40px;
+            
+        }
+        .blogs{
+            display: flex;
+            font-size: medium;
+            margin-right: 50px;
+            padding: 20px;
+            
+        }
+        .blogs a{
+            color: blueviolet;
+           
+        }
+        .white{
+            background-color: whitesmoke;
+        }
+        .green{
+            color: blueviolet;
+            margin-left: 20px;
+        }
+        .max{
+            background-color: whitesmoke;
+            border-radius: 4px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 40px;
+            grid-column-gap: 80px;
+            margin-left: 25px;
+        }
+       .file{
+           margin-left: 100px;
+           margin-right: 100px;
+       }
+
+       @media only screen and (max-width:688) {
+        .ss{
+            background-color: whitesmoke;
+            border-radius: 4px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 10px;
+            grid-column-gap: 30px;
+        }
+        .blog{
+            display: grid;
+            background-color: whitesmoke;
+            border-radius: 4px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 10px;
+            grid-column-gap: 5px;
+            margin-left: 20px;
+        }
+
+        body{
+            background:wheat;
+        margin: auto;
+        padding: 0;
+        font-family: 'Varela Round', sans-serif;
+        }
+        .max{
+            background-color: whitesmoke;
+            border-radius: 4px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 40px;
+            grid-column-gap: 80px;
+            margin-left: 25px;
+        }
+
+       }
+
+       @media only screen and (max-width:992px) and (min-width:600px) {
+        .ss{
+            background-color: whitesmoke;
+            border-radius: 4px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 30px;
+            grid-column-gap: 60px;
+        }
+        .blog{
+            display: grid;
+            background-color: whitesmoke;
+            border-radius: 4px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 5px;
+            margin-left: 20px;
+        }
+        body{
+            background:wheat;
+        margin: auto;
+        padding: 0;
+        font-family: 'Varela Round', sans-serif;
+        }
+        .max{
+            background-color: whitesmoke;
+            border-radius: 4px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 40px;
+            grid-column-gap: 80px;
+            margin-left: 25px;
+        }
+        
+        }
+        
