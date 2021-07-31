@@ -9,7 +9,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 60px;
+    min-height: 12px;
     margin-bottom: 20px;
     background-color: blue;
 }
@@ -36,13 +36,24 @@ nav{
     font-size: 20px;
 }
 .small{
-
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+width: 30%;
 }
-
+.sin{
+    vertical-align: middle;
+}
+.logo{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+      }
+}
 .player{
     grid-row-gap: 30px;
     grid-column-gap: 60px;
     margin-left: 20px;
+    ;
 }
 .container{
  height: auto;
@@ -58,25 +69,27 @@ nav{
     margin-left: 10px;
 }
 .ss{
-    background-color: whitesmoke;
+    
     border-radius: 4px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3px;
+    grid-column-gap: 2px;
+    padding: 20px;
     }
     .nature{
         display: flex;
         
         width: 30%;
+        align-items: center;
+
+
     }
+    
     .nature p{
         margin-left: 40px;
     }
-    .con{
-        background-color: white;
-        
-    }
+    
     .red{
         color: blueviolet;
         margin-top: 0;
@@ -87,7 +100,7 @@ nav{
         }   
         .blog{
             display: grid;
-            background-color: whitesmoke;
+           
             border-radius: 4px;
             grid-template-columns: repeat(2, 1fr);
             grid-row-gap: 20px;
@@ -111,54 +124,65 @@ nav{
             color: blueviolet;
            
         }
-        .white{
-            background-color: whitesmoke;
-        }
+        
         .green{
             color: blueviolet;
-            margin-left: 20px;
+        margin-top: 0;
+        margin-left: 20px;
+            
         }
         .max{
-            background-color: whitesmoke;
+            
             border-radius: 4px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-row-gap: 40px;
-            grid-column-gap: 80px;
+            grid-column-gap: 40px;
             margin-left: 25px;
+            padding: 20px;
+        }
+        .max > div {
+            border-radius: 10px;
+            box-shadow: 2px 4px 6px 8px lightgrey;
+            padding: 10px;
         }
        .file{
-           margin-left: 100px;
-           margin-right: 100px;
+           margin: auto;
+           width: 70%;
        }
 
-       @media only screen and (max-width:688) {
+       @media only screen and (max-width:687px){
+           
         .ss{
-            background-color: whitesmoke;
+            
+           background-color: whitesmoke;
             border-radius: 4px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            grid-row-gap: 10px;
-            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+            grid-column-gap: 60px;
+            
         }
+        .file {
+            width: 90%;
+            margin: auto;
+        }
+        .navigation li {
+            display: none;
+          }
         .blog{
             display: grid;
             background-color: whitesmoke;
             border-radius: 4px;
             grid-template-columns: repeat(1, 1fr);
-            grid-row-gap: 10px;
+            grid-row-gap: 20px;
             grid-column-gap: 5px;
             margin-left: 20px;
         }
-
-        body{
-            background:wheat;
-        margin: auto;
-        padding: 0;
-        font-family: 'Varela Round', sans-serif;
-        }
+        
+        
         .max{
-            background-color: whitesmoke;
+            
             border-radius: 4px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -166,10 +190,10 @@ nav{
             grid-column-gap: 80px;
             margin-left: 25px;
         }
-
-       }
-
-       @media only screen and (max-width:992px) and (min-width:600px) {
+        
+    }
+       @media only screen and (min-width: 688px) and (max-width: 992px) {
+           
         .ss{
             background-color: whitesmoke;
             border-radius: 4px;
@@ -177,6 +201,9 @@ nav{
             grid-template-columns: repeat(2, 1fr);
             grid-row-gap: 30px;
             grid-column-gap: 60px;
+        }
+        .file {
+            width: 90%;
         }
         .blog{
             display: grid;
@@ -204,4 +231,5 @@ nav{
         }
         
         }
+    
         
